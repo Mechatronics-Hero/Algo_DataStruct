@@ -1,2 +1,2 @@
-# Algo_DataStruct
-Algorithms and Data Structures
+# Algorithms & Data Structures
+Algorithms and Data Structures exercises from HackerRank
