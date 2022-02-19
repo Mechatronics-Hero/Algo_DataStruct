@@ -2,20 +2,20 @@
 using namespace std;
 
 
-int printSum(int arr[], int size)
+void printSum(int arr[], int size)
 {
     int sum = 0;
     for (int i = 0; i < size; i++)
         sum += arr[i];
-    return sum;
+    cout << endl << "Sum of the elements: " << sum << endl;
 }
 
 
 int main()
 {
-    
-    int size, start=0, end;
-    
+
+    int size, start = 0, end;
+
     cout << "Number of the elements of the array: ";
     cin >> size;
     end = size;
@@ -26,8 +26,8 @@ int main()
     for (int i = 0; i < size; i++)
         cin >> myArray[i];
 
-    cout << endl << "Sum of the elements: " << printSum(myArray, size) << endl;
-        
+    printSum(myArray, size);
+
     delete[] myArray;
     myArray = NULL;
 
