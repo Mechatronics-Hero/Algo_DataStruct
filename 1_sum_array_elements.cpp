@@ -14,12 +14,11 @@ void printSum(int arr[], int size)
 int main()
 {
 
-    int size, start = 0, end;
+    int size;
 
     cout << "Number of the elements of the array: ";
     cin >> size;
-    end = size;
-
+   
     int* myArray = new int[size];
 
     cout << "Insert the values:" << endl;
